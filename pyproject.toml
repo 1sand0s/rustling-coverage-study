@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "rustlang-coverage-study"
+version = "0.1.0"
+description = "Compare performance of coverage tools for Rust and C++"
+authors = ["1sand0s <1sand0sardpi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+seutil = "^0.8.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
